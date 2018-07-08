@@ -1,0 +1,21 @@
+{
+  "name": "js-observer-pattern",
+  "version": "1.0.0",
+  "description": "Observer Pattern",
+  "main": "./src/subject.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "observer",
+    "js"
+  ],
+  "author": "Martin Jujou",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "sinon": "^6.1.3"
+  }
+}

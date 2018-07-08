@@ -3,13 +3,13 @@ Simple observer pattern in JS
 
 ### Usage
 
-```
+```javascript
 const subject = new Subject();
-const martin = new TestObserver('Martin');
-const alana = new TestObserver('Alana');
+const kano = new TestObserver('Kano');
+const subZero = new TestObserver('Sub Zero');
 
-subject.subscribe(martin);
-subject.subscribe(alana);
+subject.subscribe(kano);
+subject.subscribe(subZero);
 
 subject.notifyAll();
 ```
